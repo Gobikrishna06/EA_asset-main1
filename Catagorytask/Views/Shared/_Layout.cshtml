@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+<link href="~/Content/themes/base/jquery-ui.min.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>Catagory table</p>
+        </footer>
+    </div>
+    @*<script src="~/Scripts/Scripts/jquery-3.6.0.min.js"></script>
+    <script src="~/Scripts/Scripts/jquery-ui-1.13.2.min.js"></script>
+    <script src="~/Scripts/Scripts/bootstrap.min.js"></script>*@
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="~/Scripts/jquery-ui-1.13.2.min.js"></script>
+<script src="~/Scripts/Scripts/Scripts/Scripts/bootstrap.min.js"></script>
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>

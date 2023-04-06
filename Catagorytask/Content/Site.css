@@ -1,0 +1,74 @@
+﻿div {
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+}
+
+td,
+th {
+    border: 1px solid gray;
+    width: 100px;
+}
+
+
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+table tbody td:first-child, table thead th:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    background-color: #ccc;
+}
+
+td:first-child,td:last-child, th:last-child {
+    position: sticky;
+    right: 0;
+    left:0;
+    z-index: 1;
+    background-color:#ccc;
+}
+
+thead tr th {
+    position: sticky;
+    top: 0;
+}
+
+.dataTables_wrapper {
+    width: auto !important;
+}
+.dataTables_length {
+    position: sticky;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+.dataTables_filter {
+    position: sticky;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+.dataTables_info {
+    position: sticky;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+#AllCatagory_Table1_paginate {
+    position: sticky;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+.dataTables_paginate paging_simple_numbers {
+    position: sticky;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
